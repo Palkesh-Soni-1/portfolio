@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #2C0E37;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    color: #84E6F8;
+}
+header{
+    width: 100%;
+    /* position: -webkit-sticky; Safari */
+  position: sticky;
+  top: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6D7275;
+    /* position: sticky; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #F88DAD;
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+nav img{
+    height: 10vh;
+    border-radius: 70%;
+}
+.firstSection {
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.leftSection {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-left: 50px; */
+}
+
+/* .rightSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .rightSection img {
+    width: 80%;
+    border-radius: 80%;
+} */
+
+.intro {
+    justify-content: center;
+    align-items: center;
+}
+
+#intro {
+    color: #84E6F8;
+}
+
+#element {
+    color: #84E6F8;
+}
+
+.secondSection {
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+
+.secondSection .heading {
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 2rem;
+}
+.secondSection .right{
+    font-size: 1.2rem;
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: auto; */
+}
+.secondSection .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondSection .left img {
+    width: 80%;
+}
+.secondSection .second{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 4rem; */
+}
+.leftSection .imp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.leftSection .btn {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgb(8, 54, 206);
+    color: white;
+    border: 2px solid #84E6F8;
+    margin: 0.5rem;
+    /* cursor: pointer; */
+}
+
+.leftSection .btn:hover {
+    background: none;
+    cursor: pointer;
+}
+
+.thirdSection{
+    max-width: 90vw;
+    margin: 4rem;
+    text-align: center;
+}
+.thirdSection .heading{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+ .thirdSection .education{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem;
+    font-size: 1.3rem;
+ }
+ .thirdSection .education .college img{
+    width: 30vw;
+    height: 60vh;
+ }
+ .thirdSection .education .school img{
+    width: 30vw;
+ }
+
+ .fourthSection{
+    max-width: 90vw;
+    margin: 4rem;
+    /* text-align: center; */
+ }
+ .fourthSection .heading{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+ }
+ .fourthSection .skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem;
+ }
+ .fourthSection .skills .skillHeading{
+    font-size: 1.2rem;
+    margin: 1rem;
+ }
+ .fourthSection .skills .ul{
+    align-items:first baseline !important;
+ }
+
+ .contact{
+    max-width: 90vw;
+    /* height: 50vh; */
+    margin: 4rem;
+ }
+ .contact .heading{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+ }
+ .contact .form{
+    background-color: #BAACBD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+ }
+ .contact form{
+    margin: 2rem;
+ }
+ .contact .form input{
+   padding: 10px;
+   /* width:750px; */
+   font-size: 1.2rem;
+   width: 400px;
+ }
+ .contact .form label{
+   /* padding: 10px; */
+   /* width:750px; */
+   font-size: 1.2rem;
+   width: 400px;
+   color: black;
+   margin : 2rem 0;
+ }
+ .contact .form #btn{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #A882DD;
+    cursor: pointer;
+}
+
+.contact .social{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.contact .social a{
+    text-decoration: none;
+    color: white;
+}
+
