@@ -16,7 +16,7 @@ const data={
     contact:phonenumber.value
   }
 
-const p=await fetch('http://localhost:8080/api/sendemail',{
+const p=await fetch(`https://first-portfolio-7nyf.onrender.com/api/sendemail`,{
     method:'POST',
     headers:{
       "Content-Type":"application/json",
