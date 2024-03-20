@@ -23,4 +23,7 @@ const p=await fetch(`https://first-portfolio-7nyf.onrender.com/api/sendemail`,{
     },
     body:JSON.stringify(data)
 })
+name1.value=" ";
+email.value=" ";
+phonenumber.value=" ";
 }
