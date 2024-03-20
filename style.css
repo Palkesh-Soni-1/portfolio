@@ -99,12 +99,13 @@ nav img{
 }
 
 .secondSection .heading {
-    font-size: 2rem;
+    font-size: 3rem;
     text-decoration: underline;
     margin: 2rem;
 }
 .secondSection .right{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    word-spacing: 0.5rem;
     max-width: 50vw;
     display: flex;
     justify-content: center;
@@ -154,7 +155,7 @@ nav img{
     text-align: center;
 }
 .thirdSection .heading{
-    font-size: 2rem;
+    font-size: 3rem;
     text-decoration: underline;
 }
  .thirdSection .education{
@@ -181,7 +182,7 @@ nav img{
     /* text-align: center; */
  }
  .fourthSection .heading{
-    font-size: 2rem;
+    font-size: 3rem;
     text-decoration: underline;
     text-align: center;
  }
@@ -206,7 +207,7 @@ nav img{
     margin: 4rem;
  }
  .contact .heading{
-    font-size: 2rem;
+    font-size: 3rem;
     text-decoration: underline;
     text-align: center;
  }
